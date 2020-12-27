@@ -1,4 +1,4 @@
-# Tweets_2020_US_Election
+# Using Geotagged Twitter Data to Evaluate Opinion in the 2020 U.S. Presidential Election
 
 <h1>Abstract</h1>
 Social media has become an emerging platform for expressing opinion, while still posing many challenges involving structure, quantifiability and representability. Twitter contains tweets with associated hashtags and geotags, providing new opportunities to unveil geographic locations of users expressing their opinions. In this research, I use Twitter’s unique usage of hashtags in training a similarity network model to reveal voter intentions expressed in tweets related to the 2020 United States Presidential Election. A similar study was carried out by my mentor, Dr. Thill and his colleague, Dr. Gong with regard to the 2016 United States Presidential Election: Gong Z, Cai T, Thill J-C, Hale S, Graham M (2020) Measuring relative opinion from location-based social media: A case study of the 2016 U.S. presidential election. PLoS ONE 15(5): e0233660. https://doi.org/10.1371/journal.pone.0233660 <br><br>
