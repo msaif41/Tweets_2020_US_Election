@@ -8,7 +8,7 @@ Our preliminary findings from network analysis suggest that although Donald Trum
 
 An overview of the objectives involved:
 <ol>
-  <li>Collection of desired Twitter data</li>
+  <li><em>Collection of desired Twitter data</em></li>
 •Output: compressed, raw tweet JSON files from March to June 2020
   <li>Data preparation</li> 
 •Input: compressed, raw tweet JSON files from step 1
