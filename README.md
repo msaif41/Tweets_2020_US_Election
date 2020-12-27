@@ -6,7 +6,7 @@ This research proposes a novel approach to measure the voting intentions of Twit
 
 Our preliminary findings from network analysis suggest that although Donald Trump has a much stronger support base than Joe Biden, there is overwhelming negative sentiment towards the President in part due to the pandemic and Black Lives Matter movement, whereas Joe Biden enjoys minimal unfavorability. Of note is the significance of noise involved due to the pandemic and 4-month lag in capturing sentiment further away from election time.
 
-An overview of the objectives involved:
+An overview of the steps involved:
 <ol>
   <li><b>Collection of desired Twitter data</b></li>
 <ul>
@@ -19,8 +19,10 @@ An overview of the objectives involved:
 <li>Tweets contain TRUMP or BIDEN keyword in the tweet record. Each tweet originates from an official Twitter client and U.S. geolocation</li> 
   </ul>
   <li><b>Generation of training setfrom hashtags</b></li>
-•Input: 1 CSV table containing only hashtagged tweets from step 2
-•Output: training files – two text files for candidates and one vocab CSV file
+<ul>
+  <li>Input: 1 CSV table containing only hashtagged tweets from step 2</li>
+  <li>Output: training files – two text files for candidates and one vocab CSV file</li>
+  </ul>  
   <li><b>Extraction of geolocation of users and assignment of users to states</b></li> 
 •Input: 1 CSV table containing tweets without hashtags from step 2
 •Output: 1 CSV table along with state designations of unique users
