@@ -19,7 +19,8 @@ An overview of the objectives involved:
 <li>Tweets contain TRUMP or BIDEN keyword in the tweet record. Each tweet originates from an official Twitter client and U.S. geolocation</li> 
   <li><b>Generation of training setfrom hashtags</b></li>
 •Input: 1 CSV table containing only hashtagged tweets from step 2
-•Output: training files – two text files for candidates and one vocab CSV file 
+•Output: training files – two text files for candidates and one vocab CSV file
+  </ul>
   <li><b>Extraction of geolocation of users and assignment of users to states</b></li> 
 •Input: 1 CSV table containing tweets without hashtags from step 2
 •Output: 1 CSV table along with state designations of unique users
