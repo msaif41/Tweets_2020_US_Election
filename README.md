@@ -8,22 +8,22 @@ Our preliminary findings from network analysis suggest that although Donald Trum
 
 An overview of the objectives involved:
 <ol>
-  <li><em>Collection of desired Twitter data</em></li>
+  <li><b>Collection of desired Twitter data</b></li>
 •Output: compressed, raw tweet JSON files from March to June 2020
-  <li>Data preparation</li> 
+  <li><b>Data preparation</b></li> 
 •Input: compressed, raw tweet JSON files from step 1
 •Output: 1 CSV table containing only hashtagged tweets, 1 CSV file containing tweets without hashtags
 •Tweets contain TRUMP or BIDEN keyword in the tweet record. Each tweet originates from an official Twitter client and U.S. geolocation 
-  <li>Generation of training setfrom hashtags</li>
+  <li><b>Generation of training setfrom hashtags</b></li>
 •Input: 1 CSV table containing only hashtagged tweets from step 2
 •Output: training files – two text files for candidates and one vocab CSV file 
-  <li>Extraction of geolocation of users and assignment of users to states</li> 
+  <li><b>Extraction of geolocation of users and assignment of users to states</b></li> 
 •Input: 1 CSV table containing tweets without hashtags from step 2
 •Output: 1 CSV table along with state designations of unique users
-  <li>Opinion-Oriented Word Embedding training</li>
+  <li><b>Opinion-Oriented Word Embedding training</b></li>
 •Input: training files from step 3
 •Output: word embedding file
-  <li>Embedding aggregation and opinion plot and prediction</li>
+  <li><b>Embedding aggregation and opinion plot and prediction</b></li>
 •Input: embedding file from step 5 and CSV table from step 4
 •Output: opinion plots and prediction results
   </ol>
