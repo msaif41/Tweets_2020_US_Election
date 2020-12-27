@@ -26,3 +26,4 @@ An overview of the objectives involved:
   <li>Embedding aggregation and opinion plot and prediction</li>
 •Input: embedding file from step 5 and CSV table from step 4
 •Output: opinion plots and prediction results
+  </ol>
