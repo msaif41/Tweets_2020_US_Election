@@ -18,18 +18,23 @@ An overview of the steps involved:
 <li>Output: 1 CSV table containing only hashtagged tweets, 1 CSV file containing tweets without hashtags</li>
 <li>Tweets contain TRUMP or BIDEN keyword in the tweet record. Each tweet originates from an official Twitter client and U.S. geolocation</li> 
   </ul>
-  <li><b>Generation of training setfrom hashtags</b></li>
+  <li><b>Generation of training set from hashtags</b></li>
 <ul>
   <li>Input: 1 CSV table containing only hashtagged tweets from step 2</li>
   <li>Output: training files – two text files for candidates and one vocab CSV file</li>
   </ul>  
   <li><b>Extraction of geolocation of users and assignment of users to states</b></li> 
-•Input: 1 CSV table containing tweets without hashtags from step 2
-•Output: 1 CSV table along with state designations of unique users
+<ul>
+  <li>Input: 1 CSV table containing tweets without hashtags from step 2</li>
+  <li>Output: 1 CSV table along with state designations of unique users</li>
+  </ul>  
   <li><b>Opinion-Oriented Word Embedding training</b></li>
-•Input: training files from step 3
-•Output: word embedding file
+<ul>
+  <li>Input: training files from step 3</li>
+  <li>Output: word embedding file</li>
+  </ul>  
   <li><b>Embedding aggregation and opinion plot and prediction</b></li>
-•Input: embedding file from step 5 and CSV table from step 4
-•Output: opinion plots and prediction results
+<ul>
+  <li>Input: embedding file from step 5 and CSV table from step 4</li>
+  <li>Output: opinion plots and prediction results</li>
   </ol>
