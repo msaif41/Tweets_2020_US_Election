@@ -16,13 +16,13 @@ This research proposes a novel approach to measure the voting intentions of Twit
   <li><b>Data preparation</b></li> 
 <ul>
   <li>Input: compressed, raw tweet JSON files from step 1</li>
-<li>Output: 1 CSV table containing only hashtagged tweets, 1 CSV file containing tweets without hashtags</li>
+<li>Output: 1 CSV table containing only hashtagged tweets, 1 CSV table containing tweets without hashtags</li>
 <li>Tweets contain TRUMP or BIDEN keyword in the tweet record. Each tweet originates from an official Twitter client and U.S. geolocation</li> 
   </ul>
   <li><b>Generation of training set from hashtags</b></li>
 <ul>
   <li>Input: 1 CSV table containing only hashtagged tweets from step 2</li>
-  <li>Output: training files – two text files for candidates and one vocab CSV file</li>
+  <li>Output: training files – 2 text files for candidates and 1 vocab CSV file</li>
   </ul>  
   <li><b>Extraction of geolocation of users and assignment of users to states</b></li> 
 <ul>
