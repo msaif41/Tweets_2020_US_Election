@@ -17,7 +17,7 @@ This research proposes a novel approach to measure the voting intentions of Twit
 <ul>
   <li>Input: compressed, raw tweet JSON files from step 1</li>
 <li>Output: 1 CSV table containing only hashtagged tweets, 1 CSV table containing tweets without hashtags</li>
-<li>Tweets contain TRUMP or BIDEN keywords. Each tweet originates from an official Twitter client to restrict usage of bots</li> 
+<li>Tweets contain TRUMP or BIDEN keywords. Each tweet originates from an official Twitter client to restrict bot usage.</li> 
   </ul>
   <li><b>Generation of training set from hashtags</b></li>
 <ul>
